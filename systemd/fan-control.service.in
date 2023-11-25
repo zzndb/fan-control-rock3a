@@ -1,5 +1,5 @@
 [Unit]
-Description=fan control for rock5b
+Description=fan control for rock3a
 After=network.target 
 StartLimitBurst=0
 StartLimitIntervalSec=60

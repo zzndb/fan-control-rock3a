@@ -45,7 +45,7 @@ int fan_mode = 0;
 #define DEFAULT_PID_PATH "/run/fan-control.pid"
 #define DEFAULT_CONF_PATH "/etc/fan-control.json"
 
-#define FAN_PWM_PATH "/sys/devices/platform/fd8b0010.pwm/pwm"
+#define FAN_PWM_PATH "/sys/devices/platform/fe6f0000.pwm/pwm"
 #define TEMP_PATH "/sys/class/thermal/thermal_zone0/temp"
 
 struct temp_map_struct
